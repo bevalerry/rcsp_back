@@ -1,0 +1,38 @@
+{
+  "type": "module",
+  "name": "course-work-6sem-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "MODE=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIGmindede/course-work-6sem-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BIGmindede/course-work-6sem-back/issues"
+  },
+  "homepage": "https://github.com/BIGmindede/course-work-6sem-back#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.9",
+    "nodemon": "^3.0.3",
+    "uuid": "^9.0.1"
+  }
+}
